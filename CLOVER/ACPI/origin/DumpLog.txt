@@ -1,0 +1,112 @@
+18:480  0:167  Found UEFI Acpi 2.0 RSDP at 7C90C000
+18:480  0:000  Saving ACPI tables from RSDP 7C90C000 to EFI\CLOVER\ACPI\origin ...
+18:480  0:000   7C90C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+18:480  0:000    (Xsdt: 7C90C0A8, Rsdt: 7C90C028)
+18:480  0:000    7C90C0A8: 'XSDT', 'TONGFANG', Rev: 1, Len: 204
+18:480  0:000    7C90C028: 'RSDT', 'TONGFANG', Rev: 1, Len: 120
+18:480  0:000    Tables in Xsdt: 21
+18:480  0:000    0. 7C92BD38: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+18:480  0:000        (Dsdt: 7C90C200, Facs: 7CE91F80, XDsdt: 7C90C200, XFacs: 0)
+18:480  0:000        7C90C200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129848
+18:482  0:002        7CE91F80: 'FACS', Ver: 2, Len: 64
+18:482  0:000    1. 7C92BE48: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+18:482  0:000    2. 7C92BED0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+18:482  0:000    3. 7C92BF18: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+18:482  0:000    4. 7C92BFB8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+18:482  0:000    5. 7C92BFF8: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+18:482  0:000    6. 7C92C030: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+18:482  0:000    7. 7C92C348: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+18:482  0:000    8. 7C92C898: 'DBGP', '', Rev: 1, Len: 52
+18:482  0:000    9. 7C92C8D0: 'DBG2', '', Rev: 0, Len: 84
+18:482  0:000    10. 7C92C928: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1570
+18:482  0:000    11. 7C92CF50: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+18:482  0:000    12. 7C92CFA8: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+18:482  0:000    13. 7C92D120: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22159
+18:482  0:000    14. 7C9327B0: 'UEFI', '', Rev: 1, Len: 66
+18:482  0:000    15. 7C9327F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+18:482  0:000    16. 7C933670: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+18:482  0:000    17. 7C9336A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+18:482  0:000    18. 7C933748: 'DMAR', 'SKL ', Rev: 1, Len: 168
+18:482  0:000    19. 7C9337F0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+18:482  0:000    20. 7C933828: 'SSDT', 'OptTabl', Rev: 1, Len: 6730
+18:482  0:000    Tables in Rsdt: 21
+18:482  0:000    0. 7C90C178: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+18:482  0:000        (Dsdt: 7C90C200, Facs: 7CE91F40)
+18:482  0:000        7C90C200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129848
+18:484  0:002        7CE91F40: 'FACS', Ver: 0, Len: 64
+18:484  0:000    1. 7C92BE48: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+18:484  0:000    2. 7C92BED0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+18:484  0:000    3. 7C92BF18: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+18:484  0:000    4. 7C92BFB8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+18:484  0:000    5. 7C92BFF8: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+18:484  0:000    6. 7C92C030: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+18:484  0:000    7. 7C92C348: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+18:484  0:000    8. 7C92C898: 'DBGP', '', Rev: 1, Len: 52
+18:484  0:000    9. 7C92C8D0: 'DBG2', '', Rev: 0, Len: 84
+18:484  0:000    10. 7C92C928: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1570
+18:484  0:000    11. 7C92CF50: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+18:484  0:000    12. 7C92CFA8: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+18:484  0:000    13. 7C92D120: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22159
+18:484  0:000    14. 7C9327B0: 'UEFI', '', Rev: 1, Len: 66
+18:484  0:000    15. 7C9327F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+18:484  0:000    16. 7C933670: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+18:484  0:000    17. 7C9336A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+18:484  0:000    18. 7C933748: 'DMAR', 'SKL ', Rev: 1, Len: 168
+18:484  0:000    19. 7C9337F0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+18:484  0:000    20. 7C933828: 'SSDT', 'OptTabl', Rev: 1, Len: 6730
+18:484  0:000  Found UEFI Acpi 1.0 RSDP at 7C90C000
+18:484  0:000  Printing ACPI tables from RSDP 7C90C000 ...
+18:484  0:000   7C90C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+18:484  0:000    (Xsdt: 7C90C0A8, Rsdt: 7C90C028)
+18:484  0:000    7C90C0A8: 'XSDT', 'TONGFANG', Rev: 1, Len: 204
+18:484  0:000    7C90C028: 'RSDT', 'TONGFANG', Rev: 1, Len: 120
+18:484  0:000    Tables in Xsdt: 21
+18:484  0:000    0. 7C92BD38: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+18:484  0:000        (Dsdt: 7C90C200, Facs: 7CE91F80, XDsdt: 7C90C200, XFacs: 0)
+18:484  0:000        7C90C200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129848
+18:487  0:002        7CE91F80: 'FACS', Ver: 2, Len: 64
+18:487  0:000    1. 7C92BE48: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+18:487  0:000    2. 7C92BED0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+18:487  0:000    3. 7C92BF18: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+18:487  0:000    4. 7C92BFB8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+18:487  0:000    5. 7C92BFF8: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+18:487  0:000    6. 7C92C030: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+18:487  0:000    7. 7C92C348: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+18:487  0:000    8. 7C92C898: 'DBGP', '', Rev: 1, Len: 52
+18:487  0:000    9. 7C92C8D0: 'DBG2', '', Rev: 0, Len: 84
+18:487  0:000    10. 7C92C928: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1570
+18:487  0:000    11. 7C92CF50: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+18:487  0:000    12. 7C92CFA8: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+18:487  0:000    13. 7C92D120: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22159
+18:487  0:000    14. 7C9327B0: 'UEFI', '', Rev: 1, Len: 66
+18:487  0:000    15. 7C9327F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+18:487  0:000    16. 7C933670: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+18:487  0:000    17. 7C9336A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+18:487  0:000    18. 7C933748: 'DMAR', 'SKL ', Rev: 1, Len: 168
+18:487  0:000    19. 7C9337F0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+18:487  0:000    20. 7C933828: 'SSDT', 'OptTabl', Rev: 1, Len: 6730
+18:487  0:000    Tables in Rsdt: 21
+18:487  0:000    0. 7C90C178: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+18:487  0:000        (Dsdt: 7C90C200, Facs: 7CE91F40)
+18:487  0:000        7C90C200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129848
+18:489  0:002        7CE91F40: 'FACS', Ver: 0, Len: 64
+18:489  0:000    1. 7C92BE48: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+18:489  0:000    2. 7C92BED0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+18:489  0:000    3. 7C92BF18: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+18:489  0:000    4. 7C92BFB8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+18:489  0:000    5. 7C92BFF8: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+18:489  0:000    6. 7C92C030: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+18:489  0:000    7. 7C92C348: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+18:489  0:000    8. 7C92C898: 'DBGP', '', Rev: 1, Len: 52
+18:489  0:000    9. 7C92C8D0: 'DBG2', '', Rev: 0, Len: 84
+18:489  0:000    10. 7C92C928: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1570
+18:489  0:000    11. 7C92CF50: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+18:489  0:000    12. 7C92CFA8: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+18:489  0:000    13. 7C92D120: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22159
+18:489  0:000    14. 7C9327B0: 'UEFI', '', Rev: 1, Len: 66
+18:489  0:000    15. 7C9327F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+18:489  0:000    16. 7C933670: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+18:489  0:000    17. 7C9336A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+18:489  0:000    18. 7C933748: 'DMAR', 'SKL ', Rev: 1, Len: 168
+18:489  0:000    19. 7C9337F0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+18:489  0:000    20. 7C933828: 'SSDT', 'OptTabl', Rev: 1, Len: 6730
