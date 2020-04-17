@@ -43,7 +43,21 @@ I don't use patched DSDT file but a lot of SSDT hotpatches, which should deal wi
 
 Don't forget to fill PlatformInfo with your own data.
 
-On my computer, kernel panic will happen on Catalina for some reason, while I can't solve it.
+~On my computer, kernel panic will happen on Catalina for some reason, while I can't solve it.~
+
+Update:
+
+To use Catalina 10.15.4, you should firstly modify the boot-args to `-x -v` to boot into system with safe mode.
+Then you should execute these commands in the `Terminal.app`
+
+```bash
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.PerfPowerServices.plist
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.PerfPowerServicesExtended.plist
+```
+
+Then restore the original boot-args, you can boot Catalina now.
+
+For Power management, you can use CPUFriendFriend to generate files as your wish.
 
 ### What is working
 - Memory
